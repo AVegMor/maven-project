@@ -47,6 +47,12 @@
       </plugin>
 
       <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-war-plugin</artifactId>
+            <version>3.3.1</version> <!-- Use a newer version -->
+        </plugin>
+
+      <plugin>
         <artifactId>maven-site-plugin</artifactId>
         <configuration>
           <reportPlugins>
